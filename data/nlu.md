@@ -37,6 +37,7 @@
 - I am great
 - I'm good
 - ya m happy
+- amzaing
 
 ## intent:mood_unhappy
 - sad
@@ -49,9 +50,20 @@
 - not very good
 - extremely sad
 - so sad
+- i'm sad
+- im sad
 
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:unclear
+- t
+- yt
+- y
+- i
+- sdsdsd
+- tgfdgdg
+- dsfsdfdsf

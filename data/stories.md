@@ -29,3 +29,45 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## New Story
+
+    - action_hello_world
+* mood_unhappy
+    - utter_cheer_up
+    - utter_did_that_help
+    - utter_happy
+* goodbye
+    - utter_goodbye
+
+## New Story
+
+* greet
+    - action_hello_world
+* unclear
+    - action_default_fallback
+
+## New Story
+
+* greet
+    - action_hello_world
+* deny
+    - utter_goodbye
+* unclear
+    - action_default_fallback
+
+## New Story
+
+* greet
+    - action_hello_world
+* mood_great
+    - utter_happy
+* unclear
+    - action_default_fallback
+
+## New Story
+
+* greet
+    - action_hello_world
+* unclear
+    - utter_unclear
