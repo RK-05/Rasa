@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- session_start
 - greet
 - goodbye
 - affirm
@@ -26,7 +27,10 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_unclear:
   - text: sorry, not able to understand what your trying to say
+  utter_start:
+  - text: hello sir/madam
 actions:
+- utter_start
 - action_hello_world
 - utter_greet
 - utter_cheer_up

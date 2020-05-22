@@ -1,4 +1,6 @@
 ## happy path
+* session_start
+  - utter_start
 * greet
   - action_hello_world
 * mood_great
