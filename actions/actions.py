@@ -12,6 +12,7 @@ from typing import Any, Text, Dict, List
 import requests
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import UserUtterenceReverted
 
 class ActionHelloWorld(Action):
 
@@ -24,4 +25,4 @@ class ActionHelloWorld(Action):
         
         dispatcher.utter_message(text="Hey! How are you?")
 
-        return []
+        return [UserUtteranceReverted()]
