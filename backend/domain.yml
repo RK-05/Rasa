@@ -8,7 +8,7 @@ intents:
   - bot_challenge
 
 actions:
-  - action_hello_world
+  - action_greet_user
   
 responses:
   utter_greet:
