@@ -1,7 +1,7 @@
 version: '3'
 services:
     nginx:
-      container_name: "nginx"
+      container_name: "nginx_1"
       image: nginx
       volumes:
         - ./nginx.conf:/etc/nginx/nginx.conf
@@ -9,16 +9,16 @@ services:
         - 80:80
       depends_on: 
         - rasa
-        - action_server
-        - chatbot_ui
+        - action_server_1
+        - chatbot_ui_1
     rasa:
-      container_name: "rasa_server"
+      container_name: "rasa_server_1"
       build: 
         context: backend
       ports: 
         - "5005:5005"
     action_server:
-      container_name: "action_server"
+      container_name: "action_server_1"
       build: 
         context: actions
       volumes:
@@ -26,7 +26,7 @@ services:
       ports:
         - "5055:5055"  
     chatbot_ui:
-      container_name: "chatbot_ui"
+      container_name: "chatbot_ui_1"
       build: 
         context: frontend
       ports: 
