@@ -11,18 +11,19 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import UserUtteranceReverted
+from rasa_sdk.events import SlotSet
 
 
-class ActionGreetUser(Action):
+class ActionGetName(Action):
 
     def name(self) -> Text:
-        return "action_greet_user"
+        return "action_get_name"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        name = tracker.get_slot("name")
+        dispatcher.utter_message("Hey {},how may i help you??".format(name))
 
-        dispatcher.utter_message("Hey there I am your HR assitant, how may I help you today")
-
-        return [UserUtteranceReverted()] 
+        return [SlotSet("name",name)] 
