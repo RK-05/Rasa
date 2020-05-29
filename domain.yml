@@ -10,6 +10,12 @@ intents:
 - mood_unhappy
 - bot_challenge
 - unclear
+
+slots:
+ - name:
+    type: unfeaturised
+  
+ 
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -38,3 +44,4 @@ actions:
 - utter_iamabot
 - utter_unclear
 - utter_start
+- action_get_name
