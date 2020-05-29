@@ -11,6 +11,9 @@ intents:
 - bot_challenge
 - unclear
 
+entities:
+  - name
+
 slots:
  - name:
     type: unfeaturized
