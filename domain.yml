@@ -10,15 +10,11 @@ intents:
 - mood_unhappy
 - bot_challenge
 - unclear
-
 entities:
-  - name
-
+- name
 slots:
- - name:
+  name:
     type: unfeaturized
-  
- 
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -38,7 +34,7 @@ responses:
   utter_start:
   - text: hello sir/madam
 actions:
-- action_hello_world
+- action_get_name
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
@@ -47,4 +43,3 @@ actions:
 - utter_iamabot
 - utter_unclear
 - utter_start
-- action_get_name
