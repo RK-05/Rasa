@@ -67,3 +67,6 @@
 - sdsdsd
 - tgfdgdg
 - dsfsdfdsf
+
+## regex:name
+- \:(.*[a-zA-z])
