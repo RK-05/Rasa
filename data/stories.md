@@ -1,12 +1,16 @@
 ## happy path
-* greet
+* get_started
   - action_get_name
+* greet
+  - utter_greet
 * mood_great
   - utter_happy
 
 ## sad path 1
+* get_started
+  - action_get_name
 * greet
-  - action_hello_world
+  - utter_greet
 * mood_unhappy
   - utter_cheer_up
   - utter_did_that_help
@@ -15,8 +19,10 @@
 
 ## sad path 2
 
+* get_started
+  - action_get_name
 * greet
-  - action_hello_world
+  - utter_greet
 * mood_unhappy
   - utter_cheer_up
   - utter_did_that_help
@@ -25,16 +31,28 @@
 
 ## say goodbye
 
+* get_started
+  - action_get_name
+* greet
+  - utter_greet
 * goodbye
   - utter_goodbye
 
 ## bot challenge
 
+* get_started
+  - action_get_name
+* greet
+  - utter_greet
 * bot_challenge
   - utter_iamabot
 
 ## New Story
 
+* get_started
+  - action_get_name
+* greet
+  - utter_greet
 * mood_unhappy
     - utter_cheer_up
     - utter_did_that_help
@@ -44,15 +62,7 @@
 
 ## New Story
 
+* get_started
+  - action_get_name
 * greet
-    - action_get_name
-
-## New Story
-
-* deny
-    - action_get_name
-    - action_hello_world
-* unclear
-    - action_hello_world
-* name
-    - action_hello_world
+  - utter_greet
