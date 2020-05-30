@@ -32,7 +32,7 @@ responses:
   utter_unclear:
   - text: sorry, not able to understand what your trying to say
   utter_start:
-  - text: hello sir/madam
+  - text: hello {name}
 actions:
 - action_get_name
 - utter_greet
