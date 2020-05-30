@@ -95,6 +95,7 @@
 - user [rohank](name)
 - user [vikas](name)
 - user [ahmed](name)
+- user rahim
 
 ## regex:name
 - user([^\\s]*)
