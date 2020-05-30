@@ -5,7 +5,6 @@
 - good morning
 - good evening
 - hey there
-- :[pheobe](name)
 
 ## intent:goodbye
 - bye
@@ -95,7 +94,7 @@
 - user [rohank](name)
 - user [vikas](name)
 - user [ahmed](name)
-- user rahim
+- user [rahim](name)
 
 ## regex:name
 - user([^\\s]*)
