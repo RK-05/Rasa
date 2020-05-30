@@ -1,5 +1,5 @@
 ## happy path
-* get_started
+* get_user_name
   - utter_start
 * greet
   - utter_greet
@@ -7,7 +7,7 @@
   - utter_happy
 
 ## sad path 1
-* get_started
+* get_user_name
   - utter_start
 * greet
   - utter_greet
@@ -19,7 +19,7 @@
 
 ## sad path 2
 
-* get_started
+* get_user_name
   - utter_start
 * greet
   - utter_greet
@@ -31,7 +31,7 @@
 
 ## say goodbye
 
-* get_started
+* get_user_name
   - utter_start
 * greet
   - utter_greet
@@ -40,39 +40,9 @@
 
 ## bot challenge
 
-* get_started
+* get_user_name
   - utter_start
 * greet
   - utter_greet
 * bot_challenge
   - utter_iamabot
-
-## New Story
-
-* get_started
-  - utter_start
-* greet
-  - utter_greet
-* mood_unhappy
-    - utter_cheer_up
-    - utter_did_that_help
-    - utter_happy
-* goodbye
-    - utter_goodbye
-
-## New Story
-
-* get_started
-  - utter_start
-* greet
-  - utter_greet
-
-## New Story
-
-* get_name{"name":"rohan"}
-    - slot{"name":"rohan"}
-    - utter_start
-* greet
-    - utter_greet
-* mood_great
-    - utter_happy
