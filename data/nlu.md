@@ -85,4 +85,4 @@
 - :jamal
 
 ## regex:name
-- hey[^\\s]*
+- :(.*[a-zA-z])
