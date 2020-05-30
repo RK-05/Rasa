@@ -85,4 +85,4 @@
 - :jamal
 
 ## regex:name
-- :(.*[a-zA-z])
+- :.*[a-zA-z]
