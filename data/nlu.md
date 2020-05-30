@@ -26,6 +26,7 @@
 - don't like that
 - no way
 - not really
+- not at all
 
 ## intent:mood_great
 - perfect
@@ -95,6 +96,13 @@
 - user [vikas](name)
 - user [ahmed](name)
 - user [rahim](name)
+
+## intent:motivate
+- keep trying
+- keep husting
+- some more steps and you will find succes!!
+- keep moving,don't stop!!
+- Rise above everything
 
 ## regex:name
 - user([^\\s]*)

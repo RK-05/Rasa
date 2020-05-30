@@ -62,8 +62,8 @@
 
 ## New Story
 
-* get_started
-  - utter_start
+* motivate
+  - utter_motivate
 * greet
   - utter_greet
 

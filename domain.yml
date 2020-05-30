@@ -12,6 +12,7 @@ intents:
 - unclear
 - get_name
 - get_started
+- motivate
 entities:
 - name
 slots:
@@ -35,6 +36,8 @@ responses:
   - text: sorry, not able to understand what your trying to say
   utter_start:
   - text: hello {name}
+  utter_motivate:
+  - text: thank you,that helped
 actions:
 - utter_greet
 - utter_cheer_up
@@ -44,3 +47,4 @@ actions:
 - utter_iamabot
 - utter_unclear
 - utter_start
+- utter_motivate
