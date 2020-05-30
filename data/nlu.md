@@ -68,7 +68,7 @@
 - tgfdgdg
 - dsfsdfdsf
 
-## intent:get_user_name:
+## intent:get_user_name
 - user [rohan](name)
 - user [akshita](name)
 - user [karan](name)
