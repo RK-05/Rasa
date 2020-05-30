@@ -69,5 +69,25 @@
 - tgfdgdg
 - dsfsdfdsf
 
+## intent:get_user_name:
+- user [rohan](name)
+- user [akshita](name)
+- user [karan](name)
+- user [fenan](name)
+- user [prashant](name)
+- user [nandan](name)
+- user [shakeer](name)
+- user [rutvij](name)
+- user [dutta](name)
+- user [tom](name)
+- user [john](name)
+- user [tony](name)
+- user [franco](name)
+- user [rajat](name)
+- user [sanskriti](name)
+- user [navya](name)
+- user [priyanka](name)
+- user [joson](name)
+
 ## regex:name
 - user([^\\s]*)
