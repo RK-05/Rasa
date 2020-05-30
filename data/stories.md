@@ -1,5 +1,5 @@
 ## happy path
-* get_started
+* get_name
   - utter_start
 * greet
   - utter_greet
@@ -7,7 +7,7 @@
   - utter_happy
 
 ## sad path 1
-* get_started
+* get_name
   - utter_start
 * greet
   - utter_greet
@@ -19,7 +19,7 @@
 
 ## sad path 2
 
-* get_started
+* get_name
   - utter_start
 * greet
   - utter_greet
