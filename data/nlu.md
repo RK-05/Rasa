@@ -88,5 +88,22 @@
 - user [priyanka](name)
 - user [joson](name)
 
+## intent:get_user
+- user-tom
+- user-ramesh
+- user-suresh
+- user-prabha
+-  user-shakeer
+- user-aditya
+- user-shreyas
+- user-mihir
+- user-nikhil
+- user-shatanu
+- user-lav
+- user-akash
+- user-chinmay
+- user-vadiraj
+- user-meeth
+
 ## regex:name
 - user([^\\s]*)
