@@ -3,6 +3,9 @@ pipeline:
 - name: WhitespaceTokenizer
 - name: RegexFeaturizer
 - name: CRFEntityExtractor
+- name: SpacyEntityExtractor
+  dimensions:
+  - PERSON
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: CountVectorsFeaturizer

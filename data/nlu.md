@@ -83,6 +83,16 @@
 - :[karan](name)
 - :jamal99
 - :jamal
+- :[guru](name)
+- :[lalit](name)
+- :[bunty](name)
+- :[dhoni](name)
+- :[sachin](name)
+- hey [rohan](name)
+- :[shaak](name)
+- :shamm
+- :[rajat](name)
+- :[rohank](name)
 
 ## regex:name
 - :(.*[a-zA-z])
