@@ -82,3 +82,7 @@
 - :[joson](name)
 - :[karan](name)
 - :jamal99
+- :jamal
+
+## regex:name
+- \:(.*[a-zA-z])
