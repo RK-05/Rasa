@@ -5,6 +5,7 @@
 - good morning
 - good evening
 - hey there
+- :[pheobe](name)
 
 ## intent:goodbye
 - bye
@@ -93,6 +94,34 @@
 - this is :shamm(name)
 - this is :[rajat](name)
 - this is :[rohank](name)
+- this is :[vikas](name)
+- okay :[vikas](name)
+- my name is :[vikas](name)
+- :[vikas](name)
+- :[monica](name)
+- :[joey](name)[joey](name)
+- :[chandler](name)
+- :[mikey](name)[mikey](name)
+- :[kevin](name)[kevin](name)
+- sachin
+- ::[sachin](name)
+- ::[ranbir](name)[ranbir](name)
+- :[ranbir9](name)[ranbir9](name)
+- :[mahendra](name)
+- :[bunty](name)
+- :[yuvraj](name)
+- :[dhoni](name)
+- :[sachin](name)
+- :[alia](name)
+- :[ranbir](name)[ranbir](name)
+- :[kohli](name)[kohli](name)
+- :[virat](name)
+- :[guru](name)
+- :[karan](name)[karan](name)
+- :[fenan](name)[fenan](name)
+- :[prashant](name)[prashant](name)
+- :[archana](name)[archana](name)
+- :[lalit](name)
 
 ## regex:name
 - :(.*[a-zA-z])
