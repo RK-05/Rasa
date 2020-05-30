@@ -68,5 +68,16 @@
 - tgfdgdg
 - dsfsdfdsf
 
-## regex:name
--  \:(.*[a-zA-z])
+## intent:get_name
+- :[john](name)
+- :[rohan](name)
+- :[mike](name)
+- :[tom](name)
+- :[ram](name)
+- :[shakeer](name)
+- :[patrrick](name)
+- :[miley](name)
+- :[nandan](name)
+- :[rutvij](name)
+- :[joson](name)
+- :[karan](name)
