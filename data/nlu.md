@@ -5,7 +5,6 @@
 - good morning
 - good evening
 - hey there
-- :[pheobe](name)
 
 ## intent:goodbye
 - bye
