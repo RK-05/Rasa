@@ -94,6 +94,7 @@
 - this is [rajat](name)
 - this is [rohank](name)
 - this is [vikas](name)
+- this is ahmed
 
 ## regex:name
 - this is([^\\s]*)
