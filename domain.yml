@@ -10,7 +10,7 @@ intents:
 - mood_unhappy
 - bot_challenge
 - unclear
-- get_started
+- get_user_name
 entities:
 - name
 slots:
