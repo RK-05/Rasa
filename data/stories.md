@@ -66,3 +66,13 @@
   - utter_start
 * greet
   - utter_greet
+
+## New Story
+
+* get_name{"name":"rohan"}
+    - slot{"name":"rohan"}
+    - utter_start
+* greet
+    - utter_greet
+* mood_great
+    - utter_happy

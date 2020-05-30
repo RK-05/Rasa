@@ -89,7 +89,6 @@
 - this is [bunty](name)
 - this is [dhoni](name)
 - this is [sachin](name)
-- this is [rohan](name)
 - this is [shaak](name)
 - this is [shamm](name)
 - this is [rajat](name)

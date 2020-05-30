@@ -10,6 +10,8 @@ intents:
 - mood_unhappy
 - bot_challenge
 - unclear
+- get_name
+- get_started
 entities:
 - name
 slots:
@@ -34,7 +36,6 @@ responses:
   utter_start:
   - text: hello {name}
 actions:
-- action_get_name
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
