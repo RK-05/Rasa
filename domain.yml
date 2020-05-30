@@ -10,7 +10,6 @@ intents:
 - mood_unhappy
 - bot_challenge
 - unclear
-- get_name
 - get_started
 entities:
 - name
