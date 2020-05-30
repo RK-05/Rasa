@@ -3,9 +3,6 @@ pipeline:
 - name: WhitespaceTokenizer
 - name: RegexFeaturizer
 - name: CRFEntityExtractor
-- name: SpacyEntityExtractor
-  dimensions:
-  - PERSON
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: CountVectorsFeaturizer
@@ -15,6 +12,9 @@ pipeline:
 - name: DIETClassifier
   epochs: 100
 - name: EntitySynonymMapper
+- name: SpacyEntityExtractor
+  dimensions:
+  - PERSON
 - name: ResponseSelector
   epochs: 100
 policies:
