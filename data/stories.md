@@ -41,3 +41,18 @@
     - utter_happy
 * goodbye
     - utter_goodbye
+
+## New Story
+
+* greet
+    - action_get_name
+
+## New Story
+
+* deny
+    - action_get_name
+    - action_hello_world
+* unclear
+    - action_hello_world
+* name
+    - action_hello_world

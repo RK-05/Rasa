@@ -68,5 +68,8 @@
 - tgfdgdg
 - dsfsdfdsf
 
+## intent:name
+- :rohan
+
 ## regex:name
--  \:(.*[a-zA-z])
+- \:(.*[a-zA-z])
