@@ -1,6 +1,6 @@
 ## happy path
 * get_started
-  - action_get_name
+  - utter_start
 * greet
   - utter_greet
 * mood_great
@@ -8,7 +8,7 @@
 
 ## sad path 1
 * get_started
-  - action_get_name
+  - utter_start
 * greet
   - utter_greet
 * mood_unhappy
@@ -20,7 +20,7 @@
 ## sad path 2
 
 * get_started
-  - action_get_name
+  - utter_start
 * greet
   - utter_greet
 * mood_unhappy
@@ -32,7 +32,7 @@
 ## say goodbye
 
 * get_started
-  - action_get_name
+  - utter_start
 * greet
   - utter_greet
 * goodbye
@@ -41,7 +41,7 @@
 ## bot challenge
 
 * get_started
-  - action_get_name
+  - utter_start
 * greet
   - utter_greet
 * bot_challenge
@@ -50,7 +50,7 @@
 ## New Story
 
 * get_started
-  - action_get_name
+  - utter_start
 * greet
   - utter_greet
 * mood_unhappy
@@ -63,6 +63,6 @@
 ## New Story
 
 * get_started
-  - action_get_name
+  - utter_start
 * greet
   - utter_greet
