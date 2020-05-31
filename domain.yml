@@ -11,6 +11,7 @@ intents:
 - bot_challenge
 - unclear
 - get_user_name
+- get_user
 entities:
 - name
 slots:
@@ -33,7 +34,7 @@ responses:
   utter_unclear:
   - text: sorry, not able to understand what your trying to say
   utter_start:
-  - text: hello {name}
+  - text: Hello {name}
 actions:
 - utter_greet
 - utter_cheer_up
