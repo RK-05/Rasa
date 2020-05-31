@@ -11,9 +11,6 @@ pipeline:
 - name: DIETClassifier
   epochs: 100
 - name: EntitySynonymMapper
-- name: SpacyEntityExtractor
-  dimensions:
-  - PERSON
 - name: ResponseSelector
   epochs: 100
 policies:
