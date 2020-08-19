@@ -25,8 +25,16 @@ responses:
       data:
       - label: bsc maths
         value: "/inform{'slot_name':'option1'}"
-      - label: option2
-        value: "/inform{'slot_name':'bsc maths'}"        
+      - label: Data Science
+        value: "/inform{'slot_name':'option2'}"
+      - label: Computer Science
+        value: "/inform{'slot_name':'option3'}"
+      - label: Mechanical Engg.
+        value: "/inform{'slot_name':'option4'}"
+      - label: Electrical
+        value: "/inform{'slot_name':'option5'}"
+      - label: IT
+        value: "/inform{'slot_name':'option6'}"
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
