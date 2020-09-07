@@ -12,6 +12,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
+import requests
 
 
 class ActionGetName(Action):
@@ -27,3 +28,20 @@ class ActionGetName(Action):
         dispatcher.utter_message("Hey {},how may i help you??".format(name))
 
         return [SlotSet("name",name)] 
+
+class ActionApi(Action):
+
+    def name(self) -> Text:
+        return "action_api"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        url = 'http://db09032f7ce8.ngrok.io/'
+        myobj = {'college': 'somevalue'}
+
+        x = requests.post(url, json = myobj)
+        
+        dispatcher.utter_message(myobj)
+
+        return [] 
