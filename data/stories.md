@@ -15,7 +15,7 @@
   - utter_cheer_up
   - utter_did_that_help
 * affirm
-  - utter_happy
+  - action_api
 
 ## sad path 2
 
