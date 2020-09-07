@@ -9,6 +9,7 @@ intents:
 
 actions:
   - action_greet_user
+  - action_api
   
 responses:
   utter_greet:
