@@ -1,6 +1,6 @@
 ## happy path
 * greet
-  - utter_greet
+  - action_api
 * mood_great
   - utter_happy
 
