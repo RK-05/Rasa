@@ -46,4 +46,4 @@ class ActionApi(Action):
         ap = api()
         dispatcher.utter_message("Hey {},how may i help you??".format(ap))
 
-        return [] 
+        return [ap] 
