@@ -14,12 +14,12 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 import requests
 
-class api():
+def api():
         url = 'http://db09032f7ce8.ngrok.io/'
         myobj = {'college': 'somevalue'}
 
         x = requests.post(url, json = myobj)
-        return x
+        return x.text
     
 class ActionGetName(Action):
 
