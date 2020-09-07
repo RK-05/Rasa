@@ -4,7 +4,7 @@
 * greet
   - action_api
 * mood_great
-  - action_api
+  - utter_happy
 
 ## sad path 1
 * get_user_name
