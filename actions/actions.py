@@ -42,6 +42,6 @@ class ActionApi(Action):
 
         x = requests.post(url, json = myobj)
         
-        dispatcher.utter_message(myobj)
+        dispatcher.utter_message(x)
 
         return [] 
