@@ -14,7 +14,13 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 import requests
 
+class api():
+        url = 'http://db09032f7ce8.ngrok.io/'
+        myobj = {'college': 'somevalue'}
 
+        x = requests.post(url, json = myobj)
+        return x
+    
 class ActionGetName(Action):
 
     def name(self) -> Text:
@@ -37,11 +43,7 @@ class ActionApi(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        url = 'http://db09032f7ce8.ngrok.io/'
-        myobj = {'college': 'somevalue'}
-
-        x = requests.post(url, json = myobj)
-        
-        dispatcher.utter_message(x)
+        ap = api()
+        dispatcher.utter_message("Hey {},how may i help you??".format(ap))
 
         return [] 
