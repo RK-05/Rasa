@@ -43,7 +43,7 @@ class ActionApi(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        ap = api()
+        ap = requests.post('http://9f0377cb95b1.ngrok.io/',json={'college':'kit'}).text
         dispatcher.utter_message("Hey {},how may i help you??".format(ap))
 
         return [ap] 
