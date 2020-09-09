@@ -51,6 +51,7 @@ responses:
   utter_start:
   - text: Hello {name}
 actions:
+- action_api
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
@@ -59,4 +60,4 @@ actions:
 - utter_iamabot
 - utter_unclear
 - utter_start
-- action_api
+
