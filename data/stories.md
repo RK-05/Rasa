@@ -22,7 +22,7 @@
 * get_user_name
   - utter_start
 * greet
-  - utter_greet
+  - action_api
 * mood_unhappy
   - utter_cheer_up
   - utter_did_that_help
