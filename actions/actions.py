@@ -14,7 +14,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 import requests
 
-    
+'''    
 class ActionGetName(Action):
 
     def name(self) -> Text:
@@ -28,7 +28,7 @@ class ActionGetName(Action):
         dispatcher.utter_message("Hey {},how may i help you??".format(name))
 
         return [] 
-
+'''
 class ActionApi(Action):
 
     def name(self) -> Text:
