@@ -12,8 +12,6 @@ intents:
 - unclear
 - get_user_name
 - get_user
-entities:
-- name
 
 responses:
   utter_greet:
