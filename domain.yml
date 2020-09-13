@@ -14,9 +14,7 @@ intents:
 - get_user
 entities:
 - name
-slots:
-  name:
-    type: unfeaturized
+
 responses:
   utter_greet:
   - text: "Hey! How are you?!"
