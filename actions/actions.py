@@ -27,7 +27,7 @@ class ActionGetName(Action):
         name = tracker.get_slot("name")
         dispatcher.utter_message("Hey {},how may i help you??".format(name))
 
-        return [SlotSet("name",name)] 
+        return [] 
 
 class ActionApi(Action):
 
