@@ -38,6 +38,6 @@ class ActionApi(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
  
-        dispatcher.utter_message("Hey how may i help you??")
+        dispatcher.utter_message(text="Hey how may i help you??")
 
         return [] 
