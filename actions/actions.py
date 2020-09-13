@@ -6,6 +6,10 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from __future__ import unicode_literals
 
 from typing import Any, Text, Dict, List
 
@@ -14,21 +18,21 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 import requests
 
-'''    
-class ActionGetName(Action):
 
-    def name(self) -> Text:
-        return "action_get_name"
+#class ActionGetName(Action):
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#    def name(self) -> Text:
+#        return "action_get_name"
+
+#    def run(self, dispatcher: CollectingDispatcher,
+#            tracker: Tracker,
+#            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        name = tracker.get_slot("name")
-        dispatcher.utter_message("Hey {},how may i help you??".format(name))
+#        name = {'col':'kit'}
+#        dispatcher.utter_message("Hey {},how may i help you??".format(name))
 
-        return [] 
-'''
+#        return [] 
+
 class ActionApi(Action):
 
     def name(self) -> Text:
